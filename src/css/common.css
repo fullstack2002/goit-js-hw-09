@@ -16,3 +16,54 @@ img {
   display: block;
   max-width: 100%;
 }
+.value, .label, label {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+.start-btn {
+  background-color: #ee2828;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.start-btn:hover {
+  background-color: rgb(21, 180, 21);
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.stop-btn {
+  background-color: rgb(21, 180, 21);
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.stop-btn:hover {
+  background-color: #ee2828;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+.back-btn {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  box-shadow:
+    0.3em 0.3em 0 0 rgb(0, 255, 191),
+    inset 0.3em 0.3em 0 0 rgb(0, 255, 191);
+}
+.back-btn:hover,
+.back-btn:focus {
+  box-shadow:
+    0.3em 0.3em 0 0 rgb(0, 255, 136),
+    inset 0.3em 0.3em 0 0 rgb(0, 255, 136);
+}
